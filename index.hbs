@@ -1,0 +1,13 @@
+{{!< default}}
+
+{{#foreach posts}}
+ <article class="post">
+  <h1><a href="{{url}}">{{{title}}}</a></h1>
+  {{{html}}}
+  <p class="data">
+    <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time> {{#if tags}}on {{tags}}{{/if}}
+  </p> 
+</article>
+{{/foreach}}
+
+{{pagination}}
