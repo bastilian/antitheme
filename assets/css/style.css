@@ -39,8 +39,7 @@ header {
   z-index: 2;
 }
 .header_bottom {
-  width: 63%;
-  margin: 0 0 2.2em 0;
+  width: 65%;
   text-align: right;
 }
 #subtitle {
@@ -51,13 +50,12 @@ header {
   color: #fff;
   padding: 0;
 }
-
 #main {
-  width: 70%;
+  padding-left: 5%;
+  width: 60%;
 }
 #content {
   margin: 0 auto;
-  width: 80%;
 }
 .post { 
   margin: 0;
@@ -120,8 +118,6 @@ a:hover {
   padding: .5em 20px;
 }
 footer {
-  padding: 2em 0;
-  width: 100%;
-  text-align: center;
+  padding: 2em 0 2em 5%;
   font-size: .8em;
 }
