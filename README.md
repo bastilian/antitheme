@@ -2,6 +2,8 @@
 
 Theme for [Ghost](http://github.com/tryghost/ghost/).
 
+[Screenshot](http://f.cl.ly/items/3h0Q2m0U3a0B1n1q091s/Ghost.png)
+
 ## Copyright & License
 
 Copyright (C) 2013 Sebastian Gräßl - Released under the MIT License.
